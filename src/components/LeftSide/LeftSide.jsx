@@ -10,9 +10,7 @@ const LeftSide = () => {
         .then(res => res.json())
        
         .then(data => setCategories(data.data.news_category));
-
-       
-    },[])
+   },[])
 
     // categories.find((item)=>{
     //     if(item.id== id){
@@ -28,10 +26,10 @@ const LeftSide = () => {
           {
             categories.map((category,idx) =>(
 
-                 <NavLink
-                  to={`/category/${category.category_id}`}
-                   key={idx} className='btn'>
-                    {category.category_name}
+                    <NavLink
+                      to={`/category/${category.category_id}`}
+                      key={idx} className='btn'>
+                     {category.category_name}
                     </NavLink>
 
             ))

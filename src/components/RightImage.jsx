@@ -2,7 +2,7 @@ import React from 'react';
 import qzoneimage1 from '../assets/qZone1.png'
 import qzoneimage2 from '../assets/qZone2.png'
 import qzoneimage3 from '../assets/qZone3.png'
-import bg from '../assets/bg.png'
+
 
 const RightImage = () => {
     return (
