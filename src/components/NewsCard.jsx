@@ -34,7 +34,7 @@ const NewsCard = ({news,onClick,id,selectidx}) => {
             
                <h3 className={`pt-5 overflow-hidden ${id != selectidx && 'h-[120px]'}`}>{details}</h3>
               
-               <button onClick={()=>onClick(id)} className='text-xl text-amber-600'>Read more</button>
+               <button onClick={()=>onClick(id)} className='text-base text-blue-600'>Read more</button>
 
                <div className='flex justify-between'>
                 <div className='flex items-center'>
