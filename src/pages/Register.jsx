@@ -60,7 +60,7 @@ const handleRegister = (e) =>{
                  type="password" 
                  className="input w-full bg-[#F3F3F3]" placeholder="Enter your password" />
                  <div><a className="link link-hover">Forgot password?</a></div>
-                 <button className="btn btn-neutral mt-4">Login</button>
+                 <button className="btn btn-neutral mt-4">Register</button>
                
                </form>
                  <p className="text-base ">Already have an Account?
